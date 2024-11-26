@@ -1,0 +1,71 @@
+name: initialsetup
+description: "A new Flutter project by Sofof Tech"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  intl: any
+  equatable: ^2.0.7
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.4
+  freezed: ^2.5.7
+  dio: ^5.7.0
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.15
+  flutter_secure_storage: ^9.2.2
+  flutter_native_splash: ^2.4.3
+  flutter_launcher_icons: ^0.14.1
+  logger: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.9.0
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 24
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/app_icon.png"
+
+flutter_native_splash:
+  image: "assets/images/splash_icon.png"
+  color: "#FFFFFF"
+  android_12:
+    image: "assets/images/splash_icon.png"
+    color: "#FFFFFF"
+  android: true
+  ios: true
+  web: false
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/
+
+
